@@ -1,0 +1,38 @@
+/* Estilos para el horario */
+.schedule {
+    font-family: Arial, sans-serif;
+  }
+  
+  .schedule h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .schedule p {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-gap: 1px;
+    border: 1px solid #ccc;
+    background-color: 'none';
+    width: 800px;
+    height: 600px;
+    border-radius: 12px;
+  }
+
+  .grid-item-hora{
+    color: white;
+    font-weight: bold;
+  }
+
+  .grid-item-dia{
+    color: white;
+    font-weight: bold;
+  }
+  
